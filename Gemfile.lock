@@ -76,7 +76,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (> 1.16)
   plainwhite!
-  rake
+  rake (= 13.0.1)
 
 BUNDLED WITH
    2.4.8
