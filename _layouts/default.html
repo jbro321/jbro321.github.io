@@ -159,6 +159,65 @@
         </p>
       </div>
       {%- endif -%}
+      <div class="about-footer {{condensed_class}}">
+        <h4>Category</h4>
+        <details>
+        <summary>Category_1</summary>
+          <ul style="-webkit-padding-start:0px;">
+            <li class="" style="list-style-type: none;">
+              <a href="" class="link_item">Category_1{{ Category }}
+                <span class="c_cnt">{{ c_cnt }}</span>
+              </a>
+                <details>
+                  <ul class="sub_category_list">
+                    <li class="" style="list-style-type: none;">
+                      <a href="" class="link_sub_item">Category_1{{ Category }}
+                        <span class="c_cnt"></span>{{ c_cnt }}
+                      </a>
+                    </li>
+                  </ul>
+                </details>
+                <details>
+                  <ul class="sub_category_list">
+                    <li class="" style="list-style-type: none;">
+                      <a href="" class="link_sub_item">Category_1{{ Category }}
+                        <span class="c_cnt"></span>{{ c_cnt }}
+                      </a>
+                    </li>
+                  </ul>
+                </details>
+            </li>
+          </ul>
+        </details>
+        <details>
+          <summary>Category_1</summary>
+            <ul style="-webkit-padding-start:0px;">
+              <li class="" style="list-style-type: none;">
+                <a href="" class="link_item">Category_1{{ Category }}
+                  <span class="c_cnt">{{ c_cnt }}</span>
+                </a>
+                  <details>
+                    <ul class="sub_category_list">
+                      <li class="" style="list-style-type: none;">
+                        <a href="" class="link_sub_item">Category_1{{ Category }}
+                          <span class="c_cnt"></span>{{ c_cnt }}
+                        </a>
+                      </li>
+                    </ul>
+                  </details>
+                  <details>
+                    <ul class="sub_category_list">
+                      <li class="" style="list-style-type: none;">
+                        <a href="" class="link_sub_item">Category_1{{ Category }}
+                          <span class="c_cnt"></span>{{ c_cnt }}
+                        </a>
+                      </li>
+                    </ul>
+                  </details>
+              </li>
+            </ul>
+          </details>
+      </div>
       {% endcapture %}
       {{ footer }}
     </section>
