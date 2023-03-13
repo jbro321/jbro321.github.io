@@ -261,7 +261,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (> 1.16)
-  github-pages
+  github-pages (~> 228)
   plainwhite!
   rake (= 13.0.1)
 
