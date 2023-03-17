@@ -159,64 +159,32 @@
         </p>
       </div>
       {%- endif -%}
-      <div class="about-footer {{condensed_class}}">
+      <div class="category">
         <h4>Category</h4>
+      </div>
+      <div class="category">
         <details>
-        <summary>Category_1</summary>
-          <ul style="-webkit-padding-start:0px;">
-            <li class="" style="list-style-type: none;">
-              <a href="" class="link_item">Category_1{{ Category }}
-                <span class="c_cnt">{{ c_cnt }}</span>
-              </a>
-                <details>
-                  <ul class="sub_category_list">
-                    <li class="" style="list-style-type: none;">
-                      <a href="" class="link_sub_item">Category_1{{ Category }}
-                        <span class="c_cnt"></span>{{ c_cnt }}
-                      </a>
-                    </li>
-                  </ul>
-                </details>
-                <details>
-                  <ul class="sub_category_list">
-                    <li class="" style="list-style-type: none;">
-                      <a href="" class="link_sub_item">Category_1{{ Category }}
-                        <span class="c_cnt"></span>{{ c_cnt }}
-                      </a>
-                    </li>
-                  </ul>
-                </details>
-            </li>
-          </ul>
+          <summary>카테고리1</summary>
+          <ul><li>
+            <details><summary>카테고리1-1</summary>
+              <ul><li><a><span>카테고리1-1-1</span></a></li></ul>
+            </details>
+            <details><summary>카테고리1-2</summary>
+              <ul><li><a><span>카테고리1-2-1</span></a></li></ul>
+            </details>
+          </li></ul>
         </details>
         <details>
-          <summary>Category_1</summary>
-            <ul style="-webkit-padding-start:0px;">
-              <li class="" style="list-style-type: none;">
-                <a href="" class="link_item">Category_1{{ Category }}
-                  <span class="c_cnt">{{ c_cnt }}</span>
-                </a>
-                  <details>
-                    <ul class="sub_category_list">
-                      <li class="" style="list-style-type: none;">
-                        <a href="" class="link_sub_item">Category_1{{ Category }}
-                          <span class="c_cnt"></span>{{ c_cnt }}
-                        </a>
-                      </li>
-                    </ul>
-                  </details>
-                  <details>
-                    <ul class="sub_category_list">
-                      <li class="" style="list-style-type: none;">
-                        <a href="" class="link_sub_item">Category_1{{ Category }}
-                          <span class="c_cnt"></span>{{ c_cnt }}
-                        </a>
-                      </li>
-                    </ul>
-                  </details>
-              </li>
-            </ul>
-          </details>
+          <summary>카테고리2</summary>
+          <ul><li>
+            <details><summary>카테고리2-1</summary>
+              <ul><li><a><span>카테고리2-1-1</span></a></li></ul>
+            </details>
+            <details><summary>카테고리2-2</summary>
+              <ul><li><a><span>카테고리2-2-1</span></a></li></ul>
+            </details>
+          </li></ul>
+        </details>
       </div>
       {% endcapture %}
       {{ footer }}

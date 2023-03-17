@@ -334,3 +334,26 @@ footer {
     border-top: 1px solid #eee;
   }
 }
+
+/* category */
+.category{
+  font-size: 22px;
+  font-family: "Raleway", sans-serif;
+  
+  details {
+    padding: 8px;
+    
+    ul {
+      list-style: none;
+
+      li {
+        list-style: none;
+        padding: 8px;
+
+        span {
+          padding: 8px;
+        }
+      }
+    }
+  }
+}

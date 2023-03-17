@@ -115,3 +115,31 @@
 		background-color: #0d0d0d;
 	}
 }
+
+/* category */
+#category ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  }
+  #category a {
+	display: inline-block;
+	padding: var(--small-space) 0;
+	color: var(--text-color);
+  }
+  #category a:hover {
+	color: var(--primary-color);
+  }
+  #category ul a .c_cnt {
+	color: var(--text-sub-color);
+	font-size: var(--small-font-size);
+  }
+  #category ul.sub_category_list {
+	padding-left: var(--small-space);
+  }
+  #category ul.sub_category_list a.link_sub_item:before {
+	content: '-';
+  }
+  #category ul.sub_category_list a.link_sub_item:hover {
+	color: var(--secondary-color);
+  }
