@@ -336,24 +336,20 @@ footer {
 }
 
 /* category */
-.category{
+#category{
   font-size: 22px;
   font-family: "Raleway", sans-serif;
-  
-  details {
-    padding: 8px;
-    
-    ul {
-      list-style: none;
+}
 
-      li {
-        list-style: none;
-        padding: 8px;
+.category_list{
 
-        span {
-          padding: 8px;
-        }
-      }
-    }
+  details{
+    padding-top: 20px;
   }
+  
+  li{
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
 }

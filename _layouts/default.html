@@ -159,31 +159,27 @@
         </p>
       </div>
       {%- endif -%}
-      <div class="category">
-        <h4>Category</h4>
+      <div id="category">
+        <h4>&gt Category</h4>
       </div>
-      <div class="category">
-        <details>
-          <summary>카테고리1</summary>
-          <ul><li>
-            <details><summary>카테고리1-1</summary>
-              <ul><li><a><span>카테고리1-1-1</span></a></li></ul>
-            </details>
-            <details><summary>카테고리1-2</summary>
-              <ul><li><a><span>카테고리1-2-1</span></a></li></ul>
-            </details>
-          </li></ul>
+      <div id="category" class="category_list">
+        <details><summary>Programming Language</summary>
+          <details><summary>&gt Java</summary>
+            <li>test1</li>
+          </details>
+          <details><summary>&gt Python</summary>
+            <li>test2</li>
+          </details>
         </details>
-        <details>
-          <summary>카테고리2</summary>
-          <ul><li>
-            <details><summary>카테고리2-1</summary>
-              <ul><li><a><span>카테고리2-1-1</span></a></li></ul>
-            </details>
-            <details><summary>카테고리2-2</summary>
-              <ul><li><a><span>카테고리2-2-1</span></a></li></ul>
-            </details>
-          </li></ul>
+      </div>
+      <div id="category" class="category_list">
+        <details><summary>Programming Language</summary>
+          <details><summary>&gt Java</summary>
+            <li>test1</li>
+          </details>
+          <details><summary>&gt Python</summary>
+            <li>test2</li>
+          </details>
         </details>
       </div>
       {% endcapture %}
