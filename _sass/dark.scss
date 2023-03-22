@@ -6,6 +6,10 @@
 	color: $dark_text_color;
 	border-color: #e6e6e6;
 
+	.ctext{
+		color: $dark_text_color
+	}
+
 	.about{
 		img.light {
 			display: none;
@@ -115,22 +119,3 @@
 		background-color: #0d0d0d;
 	}
 }
-
-/* category */
-#category{
-	font-size: 22px;
-	font-family: "Raleway", sans-serif;
-  }
-  
-  .category_list{
-  
-	details{
-	  padding-top: 20px;
-	}
-	
-	li{
-	  padding-top: 20px;
-	  padding-left: 20px;
-	}
-  
-  }

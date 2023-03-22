@@ -2,6 +2,7 @@
 ---
 
 @import "plain";
+@import "category";
 
 {% if site.plainwhite.search %}
   @import "search";

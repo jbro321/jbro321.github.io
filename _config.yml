@@ -59,3 +59,6 @@ remote_theme: samarsault/plainwhite-jekyll
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
+
+category_path: "_category"
+category_layout: "category.html"
