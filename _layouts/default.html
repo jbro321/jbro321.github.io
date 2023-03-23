@@ -10,7 +10,6 @@
 {% else %}
 {% assign condensed_class = "" %}
 {%- endif -%}
-
 <body>
   <main class="container">
     <section class="about">
@@ -163,6 +162,22 @@
       {{ footer }}
     </section>
     <section class="content">
+      <div class="site-category">
+        <ul class='cat1'>
+          <!-- main category1 -->
+          <li ><a href="/category/test" class="ctext">test</a>
+          <ul>
+            <li><a href="/category/test1" class="ctext">test1</a></li>
+          </ul>
+          </li>
+          <!-- main category2 -->
+          <li><a href="/category/etc" class="ctext">etc</a>
+          <ul>
+            <li><a href="/category/etc1" class="ctext">etc1</a></li>
+          </ul>
+          </li>
+        </ul>
+      </div>
       {{ content }}
     </section>
     <footer class="{{condensed_class}}">

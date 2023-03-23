@@ -2,6 +2,6 @@
 
 layout: category
 
-title: 'test1'
+title: 'test'
 
 ---  
