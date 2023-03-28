@@ -6,8 +6,8 @@ categories: Internet Edge
 ---
 ```powershell
 Edge에서 팝업 없이 자동 다운로드 하는 방법입니다.
-1. 자동으로 다운로드 할 URL을 등록합니다.
-2. 자동으로 다운로드 할 FileType을 등록합니다.
+- 자동으로 다운로드 할 URL을 등록합니다.
+- 자동으로 다운로드 할 FileType을 등록합니다.
 ```
 
 ### 윈도우 레지스트리 편집기 실행
