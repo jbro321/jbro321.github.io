@@ -56,3 +56,11 @@ or 커맨드 명령어로 등록
 reg add HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\AutoOpenFileTypes /v 1 /d application
 ```
 위는 "application" 파일을 자동으로 다운로드 설정한 방법입니다.
+
+---
+
+이상입니다.
+
+궁금하신 점은 댓글 남겨주세요!
+
+소통도 너무 환영합니다~ 감사합니다 :D
