@@ -25,8 +25,6 @@ Edge에서 팝업 없이 자동 다운로드 하는 방법입니다.
 
 ![AutoOpenAllowedForURLs](/assets/img/230328_Edge_AutoOpenAllow/AutoOpenAllowedForURLs.jpeg)
 
-_posts/Internet/Edge/2023-03-28-Edge-AutoOpenAllow/img/AutoOpenAllowedForURLs.jpeg
-
 or 커맨드 명령어로 등록
 ```powershell
 // Command Prompt(cmd) 관리자 권한으로 실행
@@ -48,7 +46,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\AutoOpenFileTypes
 ```
 오른쪽 클릭 > NEW > String Value > 이름 '1' > 오른쪽 클릭 > Modify > Value data에 "application"
 
-<!-- <img src="./img/230328_Edge_AutoOpenAllow/AutoOpenFileTypes.jpeg"> -->
+![AutoOpenAllowedForURLs](/assets/img/230328_Edge_AutoOpenAllow/AutoOpenFileTypes.jpeg)
 
 or 커맨드 명령어로 등록
 ```powershell
