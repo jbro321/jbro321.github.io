@@ -23,7 +23,7 @@ Edge에서 팝업 없이 자동 다운로드 하는 방법입니다.
 
 오른쪽 클릭 > NEW > String Value > 이름 '1' > 오른쪽 클릭 > Modify > Value data에 "https://test.com"
 
-![AutoOpenAllowedForURLs](/assets/img/230328_Edge_AutoOpenAllow/AutoOpenAllowedForURLs.jpeg)
+![AutoOpenAllowedForURLs](/_posts/Internet/Edge/230328_Edge_AutoOpenAllow/AutoOpenAllowedForURLs.jpeg)
 
 or 커맨드 명령어로 등록
 ```powershell
