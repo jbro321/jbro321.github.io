@@ -23,7 +23,7 @@ Edge에서 팝업 없이 자동 다운로드 하는 방법입니다.
 
 오른쪽 클릭 > NEW > String Value > 이름 '1' > 오른쪽 클릭 > Modify > Value data에 "https://test.com"
 
-![AutoOpenAllowedForURLs](/assets/img/230328_Edge_AutoOpenAllow/AutoOpenAllowedForURLs.jpeg)
+![AutoOpenAllowedForURLs](/assets/img/Internet/Edge/AutoOpenAllow/AutoOpenAllowedForURLs.jpeg)
 
 or 커맨드 명령어로 등록
 ```powershell
@@ -34,6 +34,8 @@ reg add HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\AutoOpenAllowedForUR
 ```
 
 여러 Url이 있을 경우, 1번에 이어 2번 3번으로 등록하면 됩니다.
+
+* 설정에 따라 다르므로, 'test'도메인만 입력해서 안될 시, https://test/test.com 와 같이 모두 입력해봅시다.
 
 ## 2. 자동으로 다운로드 할 FileType을 등록합니다.
 * 아래는 "application"을 자동으로 실행하게 설정한 예시입니다.
@@ -46,7 +48,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\AutoOpenFileTypes
 ```
 오른쪽 클릭 > NEW > String Value > 이름 '1' > 오른쪽 클릭 > Modify > Value data에 "application"
 
-![AutoOpenAllowedForURLs](/assets/img/230328_Edge_AutoOpenAllow/AutoOpenFileTypes.jpeg)
+![AutoOpenAllowedForURLs](/assets/img/Internet/Edge/AutoOpenAllow/AutoOpenFileTypes.jpeg)
 
 or 커맨드 명령어로 등록
 ```powershell
@@ -55,7 +57,6 @@ or 커맨드 명령어로 등록
 
 reg add HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\AutoOpenFileTypes /v 1 /d application
 ```
-위는 "application" 파일을 자동으로 다운로드 설정한 방법입니다.
 
 ---
 
