@@ -26,29 +26,29 @@ categories: etc Blog_Dev
 
 https://github.com/apps/utterances 링크로 이동하여 utterances 깃허브 어플을 설치합니다.
 
-1.1 오른쪽에 보시면, Configure를 누릅니다.
+### 1.1 오른쪽에 보시면, Configure를 누릅니다.
 
-1.2 설치할 계정을 선택합니다.
+### 1.2 설치할 계정을 선택합니다.
 - ex) jbro321
 
-1.3 어떤 repository에 설치할지 선택합니다.
+### 1.3 어떤 repository에 설치할지 선택합니다.
 - 깃허브 블로그에 적용할거니, 해당 레포지토리 선택
 - ex) jbro321.github.io
 
-1.4 repo: 네모박스에 "계정/레포" 입력합니다.
+### 1.4 repo: 네모박스에 "계정/레포" 입력합니다.
 - ex) jbro321/jbro321.github.io
 
 ![Utterances_page](/assets/img/230328_Blog_Dev_Utterances/Utterances_page2.png)
 
-1.5 Issue에 적용되는 타입 선택합니다.
+### 1.5 Issue에 적용되는 타입 선택합니다.
 - 댓글 이슈를 어디에 매핑시킬지 선택합니다.
 - ex) 저는 pathname 선택했습니다.
 
-1.6 Theme 타입을 선택합니다.
+### 1.6 Theme 타입을 선택합니다.
 - ex) 저는 깔끔한 "Github Light" 화이트 선택했습니다.
 - 어두운 테마이면, "Phanton Dark" 도 이쁠 것 같아요 :)
 
-1.7 Utterances 코드 copy
+### 1.7 Utterances 코드 copy
 
 ![Utterances_page](/assets/img/230328_Blog_Dev_Utterances/Utterances_page3.png)
 
@@ -58,7 +58,7 @@ https://github.com/apps/utterances 링크로 이동하여 utterances 깃허브 �
 
 - 적용한 Theme 마다 위치가 다를 수 있으니 참고해주세요!
 
-2.1 Utterances 코드 적용하기
+### 2.1 Utterances 코드 적용하기
 
 저는 포스트 맨 밑에 댓글 기능을 추가하였습니다.
 
