@@ -4,13 +4,15 @@ title:  "Edge AutoOpenAllow"
 date:   2023-03-28 09:10:36 +0900
 categories: Internet Edge
 ---
-## Edge에서 팝업 없이 자동 다운로드 하는 방법
+Edge에서 팝업 없이 자동 다운로드 하는 방법입니다.
+1. 자동으로 다운로드 할 URL을 등록합니다.
+2. 자동으로 다운로드 할 FileType을 등록합니다.
 
 ### 윈도우 레지스트리 편집기 실행
 
 1. 자동으로 다운로드 할 URL을 등록합니다.
 
-![AutoOpenAllowedForURLs](/_posts/Internet/Edge/2023-03-28-Edge-AutoOpenAllow/AutoOpenAllowedForURLs.jpeg)
+![AutoOpenAllowedForURLs](_posts/Internet/Edge/2023-03-28-Edge-AutoOpenAllow/AutoOpenAllowedForURLs.jpeg)
 
 위 이미지는 "https://test.com"에서 자동으로 실행하게 설정하였습니다.
 
@@ -24,7 +26,7 @@ reg add HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\AutoOpenAllowedForUR
 
 2. 자동으로 다운로드 할 FileType을 등록합니다.
 
-![AutoOpenFileTypes](/_posts/Internet/Edge/2023-03-28-Edge-AutoOpenAllow/AutoOpenFileTypes.jpeg)
+![AutoOpenFileTypes](_posts/Internet/Edge/2023-03-28-Edge-AutoOpenAllow/AutoOpenFileTypes.jpeg)
 
 ### or 커맨드 명령어로 등록
 ```
