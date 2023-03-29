@@ -2,14 +2,14 @@
     //background: $brand-color;
     // border-top: 1px solid; //$border-color;
     display: flex;
-    margin:auto;
+    margin: auto;
     padding:0;
     font-size:14px;
     // text-align: left;
     clear:left;
-    }
+}
   
-    .site-category ul{
+.site-category ul{
     //background: rgb(109,109,109);
     height:50px;
     list-style:none;
@@ -17,15 +17,14 @@
     margin:0 auto;
     padding:0;
     display:inline-block;
-    }
+}
   
-    .site-category li{
+.site-category li{
     float: left;
-    display:inline;
+    display:inline;  
+}
   
-    }
-  
-    .site-category li a{
+.site-category li a{
     //background: $brand-color;
     display:block;
     font-weight:normal;
@@ -34,16 +33,16 @@
     padding:0px 20px;
     text-align:center;
     text-decoration:none;
-    }
+}
   
-    .site-category li a:hover{
+.site-category li a:hover{
     background: rgb(71,71,71);
     color:#FFFFFF;
     text-decoration:none;
-    }
+}
   
-    .site-category li ul{
-    background: rgb(230, 223, 223);
+.site-category li ul{
+    background: rgb(200, 200, 200);
     display:none;
     height:auto;
     padding:0px;
@@ -54,38 +53,59 @@
     z-index:200;
     /*top:1em;
     /*left:0;*/
-    }
+}
   
-    .site-category li:hover ul{
+.site-category li:hover ul{
     display:block;
-    }
+}
   
-    .site-category li li {
+.site-category li li {
     //background: $brand-color;
     display:block;
     float:none;
     margin:0px;
     padding:0px;
     width:200px;
-    }
+}
   
-    .site-category li:hover li a{
+.site-category li:hover li a{
     background:none;
-    }
+}
   
-    .site-category li ul a{
+.site-category li ul a{
     display:block;
-    height:50px;
-    font-size:12px;
+    height:40px;
+    font-size:14px;
     font-style:normal;
     margin:0px;
-    padding:0px 10px 0px 15px;
+    padding:0px 10px 0px 10px;
     text-align:left;
-    }
-  
-    .site-category li ul a:hover, .menubar li ul li:hover a{
+}
+
+.site-category li ul a:hover, .menubar li ul li:hover a{
     background: rgb(90,90,90);
     border:0px;
     color:#ffffff;
     text-decoration:none;
-    }
+}
+
+.site-category li ul ol{
+    background: rgb(230, 230, 230);
+    padding-left: 0px;
+}
+.site-category li ul ol a{
+    display:block;
+    height:40px;
+    font-size:12px;
+    font-style:normal;
+    margin:0px;
+    padding:0px 10px 0px 10px;
+    text-align:left;
+}
+  
+.site-category li ul ol a:hover{
+    background: rgb(90, 90, 90);
+    border:0px;
+    color:#ffffff;
+    text-decoration:none;
+}

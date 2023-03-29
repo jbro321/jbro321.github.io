@@ -2,6 +2,6 @@
 
 layout: category
 
-title: 'cmd'
+title: 'Tech'
 
 ---  
