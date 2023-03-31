@@ -6,7 +6,7 @@ categories: etc Blog_Dev
 ---
 ```
 깃허브 블로그 댓글 기능 추가
-- Utterances
+- Utterances 추천
 - Disqus 비추
 ```
 
