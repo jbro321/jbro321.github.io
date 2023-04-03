@@ -2,7 +2,7 @@
 layout: post
 title:  "Cmd commands로 hosts파일 수정 커맨드(echo)"
 date:   2023-04-03 10:15:36 +0900
-categories: Tools cmd
+categories: Tools Cmd
 ---
 ```
 Cmd 명령 프롬프트 명령어
