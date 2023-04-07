@@ -3,6 +3,7 @@ layout: post
 title:  "Python 가상환경 생성, 삭제"
 date:   2023-04-05 23:20:36 +0900
 categories: Tech Python
+published: true
 ---
 ```
 Python 가상환경
