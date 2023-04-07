@@ -3,6 +3,7 @@ layout: post
 title:  "github pages 블로그 댓글 기능 Utterances"
 date:   2023-03-28 14:00:36 +0900
 categories: etc Blog_Dev
+published: true
 ---
 ```
 깃허브 블로그 댓글 기능 추가
