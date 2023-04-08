@@ -1,0 +1,73 @@
+---
+layout: post
+title:  "Conda 명령어 (create, env 등)"
+date:   2023-04-08 10:50:33 +0900
+categories: Tools Conda
+published: true
+---
+```
+Conda 명령어 모음 (Commands)
+- 가상환경 생성 (create -n "가상환경")
+- 가상환경 목록 출력 (env list)
+```
+
+# Anaconda 가상환경
+
+practice라는 예시로 진행해보겠습니다.
+
+## Anaconda 가상환경 목록 확인
+
+- 가상환경 목록 조회하는 방법은 2가지가 있습니다.
+
+```
+$ conda env list
+
+$ conda info --envs
+```
+
+## Anaconda 가상환경 생성
+
+- practice라는 이름의 가상환경과 python 버젼 3.8 설치
+
+```
+$ conda create -n practice python=3.8
+```
+
+## Anaconda 가상환경 활성화
+
+- 만들어진 practice 가상환경 활성화
+
+```
+$ conda activate practice
+```
+
+## Anaconda 가상환경 비활성화
+
+- 현재 활성화되어 있는 가상환경 비활성화
+
+```
+$ conda deactivate
+```
+
+## Anaconda 가상환경 삭제
+
+### practice 가상환경 삭제
+- 가상환경은 삭제되었지만 Conda 가상환경이 만들어진 폴더에 폴더는 남아있습니다.
+
+```
+$ conda env remove -n practice
+```
+
+### practice 가상환경 완전 삭제
+
+```
+$ conda remove --name practice --all
+```
+
+---
+
+이상입니다.
+
+궁금하신 점은 댓글 남겨주세요!
+
+소통도 환영합니다~~ 감사합니다 :D
