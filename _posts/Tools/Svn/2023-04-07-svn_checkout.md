@@ -32,7 +32,7 @@ Svn(Subversion)은 버전, 소스관리 등 형상관리하는 툴입니다.
 
 본인 환경에 맞는 os와 버전을 선택합니다.
 
-ex) Windows 64비트이면, Tortoise 1.14.5 - 64 bit 선택 > 자동으로 다운로드 진행된다.
+ex) Windows 64비트이면, Tortoise 1.14.5 - 64 bit 선택 > 자동으로 다운로드 진행됩니다.
 
 ![Svn_user](/assets/img/Tools/Svn/Checkout/Svn_user.png)
 
