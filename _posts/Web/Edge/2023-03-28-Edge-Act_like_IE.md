@@ -2,7 +2,7 @@
 layout: post
 title:  "Edge에서 IE모드로 실행하기"
 date:   2023-03-28 17:10:10 +0900
-categories: Internet Edge IE
+categories: Web Edge IE
 published: true
 ---
 ```powershell

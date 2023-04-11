@@ -2,7 +2,7 @@
 layout: post
 title:  "Edge AutoOpenAllow"
 date:   2023-03-28 09:10:36 +0900
-categories: Internet Edge
+categories: Web Edge
 published: true
 ---
 ```powershell
