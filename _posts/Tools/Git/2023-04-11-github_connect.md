@@ -10,6 +10,7 @@ git & github config
 - git bash
 - git config username & email
 ```
+
 # 1. Git Bash 실행
 
 ```
