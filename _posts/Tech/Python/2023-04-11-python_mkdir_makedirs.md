@@ -16,7 +16,7 @@ os.mkdir과 os.makedirs 차이
 - os.mkdir(path)
 - mkdir은 folder 하나만 생성 가능합니다.
 
-```Python
+```python
 import os
 
 path = './workspace/test'
@@ -29,7 +29,7 @@ os.mkdir(path)
 
 ## os.mkdir() 이용해 여러 폴더 생성 방법
 
-```Python
+```python
 import os
 
 path_list = ['./workspace/test1', './workspace/test2', './workspace/test2']
@@ -44,7 +44,7 @@ for path in path_list:
 - os.makedirs(path)
 - makedirs는 './a/b/c' 처럼 원하는 만큼 folder(directory)를 생성 가능합니다.
 
-```Python
+```python
 import os
 
 path = './workspace/dir/test'
