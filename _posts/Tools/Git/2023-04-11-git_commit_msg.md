@@ -42,19 +42,19 @@ Footer : 선택
 
 # git commit message type
 
-- feat : new feature 추가, 기존의 feature를 requirement에 맞춰 수정
-- fix : feature에 대한 bug 수정
-- docs : document(commnet) 수정
-- comment : 필요한 comment 추가 및 변경
-- style : code formatting, 세미콜론(;) 누락, 코드 변경이 없는 경우
-- refactor : code refactoring
-- test : test code, refactoring test code 추가(production code 변경 X)
-- chore : build 업무 수정, package 매니저 수정(프로덕션 코드 변경 X)
-- design : CSS 등 사용자 UI design 변경
-- rename : file 혹은 folder name을 수정하거나 옮기는 작업만인 경우
-- remove : file을 삭제하는 작업만 수행한 경우
-- !BREAKING CHANGE : 커다란 API 변경한 경우
-- !HOTFIX : 급하게 치명적인 BUG를 고쳐야 하는 경우
+- **feat** : new feature 추가, 기존의 feature를 requirement에 맞춰 수정
+- **fix** : feature에 대한 bug 수정
+- **docs** : document(commnet) 수정
+- **comment** : 필요한 comment 추가 및 변경
+- **style** : code formatting, 세미콜론(;) 누락, 코드 변경이 없는 경우
+- **refactor** : code refactoring
+- **test** : test code, refactoring test code 추가(production code 변경 X)
+- **chore** : build 업무 수정, package 매니저 수정(프로덕션 코드 변경 X)
+- **design** : CSS 등 사용자 UI design 변경
+- **rename** : file 혹은 folder name을 수정하거나 옮기는 작업만인 경우
+- **remove** : file을 삭제하는 작업만 수행한 경우
+- **!BREAKING CHANGE** : 커다란 API 변경한 경우
+- **!HOTFIX** : 급하게 치명적인 BUG를 고쳐야 하는 경우
 
 ---
 
