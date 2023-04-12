@@ -14,7 +14,7 @@ Python venv error
 # PowerShell 가상환경 실행 오류 (venv)
 
 - 가상환경 생성은 아래 블로그 글을 참고해주세요 **☟**
-> [![Python_venv_mk_del_url.png](/assets/img/Tech/Python/Python_venv_mk_del_url.png)](https://jbro321.github.io/tech/python/2023/04/05/Python_venv_mk_del.html) **☝︎ 그림 클릭 :)**
+> [![Python_venv_mk_del_url.png](/assets/img/Tech/Python//Python_venv_error/Python_venv_mk_del_url.png)](https://jbro321.github.io/tech/python/2023/04/05/Python_venv_mk_del.html) **☝︎ 그림 클릭 :)**
 
 ## 가상환경 실행
 - 가상환경을 '.venv'로 생성한 경우입니다.
@@ -25,7 +25,7 @@ Python venv error
 
 ## 오류 발생
 
-![python_venv_error1.png](/assets/img/Tech/Python/python_venv_error1.png)
+![python_venv_error1.png](/assets/img/Tech/Python//Python_venv_error/python_venv_error1.png)
 
 ## 오류 발생 원인
 
@@ -41,7 +41,7 @@ PowerShell의 실행 정책은 PowerShell이 구성 파일을 로드하고 스�
 
 ### 1. Windows PowerShell 관리자 권한으로 실행
 
-![python_venv_error2.png](/assets/img/Tech/Python/python_venv_error2.png)
+![python_venv_error2.png](/assets/img/Tech/Python//Python_venv_error/python_venv_error2.png)
 
 ### 2. 현재의 실행정책 확인
 
@@ -51,7 +51,7 @@ Get-ExecutionPolicy
 
 **"RemoteSigned"**가 아닌 경우, RemoteSigned로 정책을 바꿔야 합니다.
 
-![python_venv_error3.png](/assets/img/Tech/Python/python_venv_error3.png)
+![python_venv_error3.png](/assets/img/Tech/Python//Python_venv_error/python_venv_error3.png)
 
 ### 3. 실행 정책 변경
 
@@ -61,7 +61,7 @@ Set-ExecutionPolicy RemoteSigned
 
 - A : 모두 예(A) 선택
 
-![python_venv_error4.png](/assets/img/Tech/Python/python_venv_error4.png)
+![python_venv_error4.png](/assets/img/Tech/Python/Python_venv_error/python_venv_error4.png)
 
 정책을 바꾼 후, 가상환경을 다시 실행해보면 정상적으로 실행됩니다.
 
