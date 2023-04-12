@@ -2,7 +2,7 @@
 layout: post
 title:  "맥북(mac) 디스코드 무한 업데이트 오류"
 date:   2023-04-12 18:34:33 +0900
-categories: Web
+categories: etc Mac
 published: true
 ---
 ```
