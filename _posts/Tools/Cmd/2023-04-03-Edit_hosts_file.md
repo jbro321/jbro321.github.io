@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cmd commands로 hosts파일 수정 커맨드(echo)"
+title:  "hosts파일 수정 커맨드(echo, cmd)"
 date:   2023-04-03 10:15:36 +0900
 categories: Tools Cmd
 published: true
@@ -20,24 +20,33 @@ echo는 커맨드 명령 프롬프트에서 프린트 역할을 합니다.
 
 ## 1. 관리자 권한 cmd 실행
 - 실행(윈도우+R)에서 cmd 입력 후, Ctrl+Shift+Enter : 관리자 권한으로 실행
-
 ```powershell
 echo.192.168.0.90 demo>> %SystemRoot%\system32\drivers\etc\hosts
 ```
 
 ## 2. 확인하기
-```
+- 관리자권한 커맨드로 메모장에서 열어서 확인
+```powershell
 notepad %SystemRoot%\system32\drivers\etc\hosts
 ```
 
 ## 참고)
-윈도우의 기본 시스템경로 설정 '%SystemRoot%' 값은
-'C:\WINDOWS' 입니다.
+윈도우의 기본 시스템경로 설정 값입니다.
+- 기본 시스템 경로 불러오기
+```powershell
+%SystemRoot%
+```
+- 기본 시스템 경로값
+```powershell
+C:\WINDOWS
+```
 
 혹여나 해당 파일이 열리지 않을 경우, 기본 시스템 경로( 환경변수 PATH 설정)가 변경되었을 수도 있습니다.
 
 - 기본 hosts파일 경로
-    - 'C:\WINDOWS\system32\drivers\etc\hosts'
+```powershell
+C:\WINDOWS\system32\drivers\etc\hosts
+```
 
 
 ---
