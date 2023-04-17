@@ -11,6 +11,24 @@ published: true
 - User-Mapper(xml)
 ```
 
+
+# 사전준비
+- 프론트에서 백엔드로 값 전달 로직 (ajax 등)
+- Database 구축 (mysql 등)
+
+DB에 있는 로그인 유저 리스트를 가져오는 방법에 대한 백엔드 관점에서의 설명입니다.
+사전준비는 프론트에서 값 전달, DB구축되어 있어야 합니다.
+
+- 추후에 프론트와, DB구축 부분도 추가 포스팅하겠습니다.
+
+# 백엔드
+
+Controller, Service(Implementation), Repository 그리고 Database에 매핑을 정의하여 구축해줍니다.
+
+![Spring_Get_user_list1](/assets/img/Tech/Java/Spring/Spring_Get_user_list/Spring_Get_user_list1.jpg)
+
+# 1. Controller
+
 # 전체 코드
 
 ```java
@@ -30,23 +48,6 @@ published: true
             return resultuserlist;
             }
 ```
-
-# 사전준비
-- 프론트에서 백엔드로 값 전달 로직 (ajax 등)
-- Database 구축 (mysql 등)
-
-DB에 있는 로그인 유저 리스트를 가져오는 방법에 대한 백엔드 관점에서의 설명입니다.
-사전준비는 프론트에서 값 전달, DB구축되어 있어야 합니다.
-
-- 추후에 프론트와, DB구축 부분도 추가 포스팅하겠습니다.
-
-# 백엔드
-
-Controller, Service(Implementation), Repository 그리고 Database에 매핑을 정의하여 구축해줍니다.
-
-![Spring_Get_user_list1](/assets/img/Tech/Java/Spring/Spring_Get_user_list/Spring_Get_user_list1.jpg)
-
-# 1. Controller
 
 ## 1.1 PostMapping
 ```java
