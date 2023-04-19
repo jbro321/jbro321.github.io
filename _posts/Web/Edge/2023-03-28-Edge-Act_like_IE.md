@@ -5,7 +5,7 @@ date:   2023-03-28 17:10:10 +0900
 categories: Web Edge IE
 published: true
 ---
-```powershell
+```
 Edge에서 IE모드로 실행하는 방법입니다.
 - IE환경을 그대로 사용하고 싶을 때 사용합니다.
 - Edge로 바뀌면서 생기는 오류를 대처하기 위한 방법입니다.

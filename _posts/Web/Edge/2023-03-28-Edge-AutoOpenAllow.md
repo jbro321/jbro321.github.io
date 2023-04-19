@@ -5,7 +5,7 @@ date:   2023-03-28 09:10:36 +0900
 categories: Web Edge
 published: true
 ---
-```powershell
+```
 Edge에서 팝업 없이 자동 다운로드 하는 방법입니다.
 - 자동으로 다운로드 할 URL을 등록합니다.
 - 자동으로 다운로드 할 FileType을 등록합니다.
