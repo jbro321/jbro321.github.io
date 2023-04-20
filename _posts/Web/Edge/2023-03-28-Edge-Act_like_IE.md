@@ -32,7 +32,7 @@ Edge에서 IE모드로 실행하는 방법입니다.
     - 설정된 환경에 따라 다를 수 있으므로,
         - "https://test/3pstart.aspx" 등 전체 주소를 적어봅시다.
 
-![AutoOpenAllowedForURLs](/assets/img/Internet/Edge/Act_like_IE/Act_like_IE.png)
+![AutoOpenAllowedForURLs](/assets/img/Web/Edge/Act_like_IE/Act_like_IE.png)
 
 ---
 
