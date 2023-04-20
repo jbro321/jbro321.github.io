@@ -2,7 +2,7 @@
 layout: post
 title:  "Python 가상환경 실행 오류 (Windows Powershell)"
 date:   2023-04-12 17:14:33 +0900
-categories: Tools Powershell
+categories: Tech Python Tools Powershell
 published: true
 ---
 ```
