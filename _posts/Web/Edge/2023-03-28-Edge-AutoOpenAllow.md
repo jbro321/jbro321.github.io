@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Edge AutoOpenAllow"
+title:  "Edge에서 팝업 없이 자동으로 파일 열기 : AutoOpenAllow"
 date:   2023-03-28 09:10:36 +0900
 categories: Web Edge
 published: true
