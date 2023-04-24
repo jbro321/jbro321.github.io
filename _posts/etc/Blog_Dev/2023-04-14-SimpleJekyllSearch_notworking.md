@@ -31,13 +31,13 @@ plainwhite-jekyll 테마를 기본으로 깃허브 블로그를 운영하고 있
 
 - search.js파일을 확인해보니, json에 "/search.json"으로 되어 있었습니다.
 
-![SimpleJekyllSearch1.png](/assets/img/etc/Blog_Dev/SimpleJekyllSearch_notworking/SimpleJekyllSearch1.png)
+![SimpleJekyllSearch1.png](/assets/img/etc/Blog_Dev/2023-04-14-SimpleJekyllSearch_notworking/SimpleJekyllSearch1.png)
 
 - 해당 주소를 깃허브 블로그(혹은 로컬에서 테스트)에서 확인해 봤습니다.
     - ex) "jbro321.github.io/search.json"
     - ex) "127.0.0.1:4000/search.json"
 
-![SimpleJekyllSearch2.png](/assets/img/etc/Blog_Dev/SimpleJekyllSearch_notworking/SimpleJekyllSearch2.png)
+![SimpleJekyllSearch2.png](/assets/img/etc/Blog_Dev/2023-04-14-SimpleJekyllSearch_notworking/SimpleJekyllSearch2.png)
 
 - 정상적으로 json 형식으로 나오는 것을 확인했습니다.
 - 해당 내용이 안나온다면, 기존 경로가 다를 수 있으니 확인해주세요!
@@ -51,13 +51,13 @@ search.json 파일에서 content를 post에서 page로 바꾸어주니 해결되
 
 ### 수정 전
 
-![SimpleJekyllSearch3](/assets/img/etc/Blog_Dev/SimpleJekyllSearch_notworking/SimpleJekyllSearch3.png)
+![SimpleJekyllSearch3](/assets/img/etc/Blog_Dev/2023-04-14-SimpleJekyllSearch_notworking/SimpleJekyllSearch3.png)
 
 - content에 "post.content"로 되어있습니다.
 
 ### 수정 후
 
-![SimpleJekyllSearch4](/assets/img/etc/Blog_Dev/SimpleJekyllSearch_notworking/SimpleJekyllSearch4.png)
+![SimpleJekyllSearch4](/assets/img/etc/Blog_Dev/2023-04-14-SimpleJekyllSearch_notworking/SimpleJekyllSearch4.png)
 
 - content에서 "page.content"로 수정했습니다.
 

@@ -34,7 +34,7 @@ Svn(Subversion)은 버전, 소스관리 등 형상관리하는 툴입니다.
 
 ex) Windows 64비트이면, Tortoise 1.14.5 - 64 bit 선택 > 자동으로 다운로드 진행됩니다.
 
-![Svn_user](/assets/img/Tools/Svn/Checkout/Svn_user.png)
+![Svn_user](/assets/img/Tools/Svn/2023-04-07-svn_checkout/Svn_user.png)
 
 # SVN Checkout
 
@@ -44,11 +44,11 @@ ex) Windows 64비트이면, Tortoise 1.14.5 - 64 bit 선택 > 자동으로 다�
 가져올 폴더로 이동 후 > 오른쪽 클릭
 ```
 
-![Svn_Checkout1](/assets/img/Tools/Svn/Checkout/Svn_Checkout1.png)
+![Svn_Checkout1](/assets/img/Tools/Svn/2023-04-07-svn_checkout/Svn_Checkout1.png)
 
 ## 가져올 폴더의 url을 입력
 
-![Svn_Checkout2](/assets/img/Tools/Svn/Checkout/Svn_Checkout2.png)
+![Svn_Checkout2](/assets/img/Tools/Svn/2023-04-07-svn_checkout/Svn_Checkout2.png)
 
 - **URL of repository**
     - Svn에서 가져올 경로를 입력해줍니다.

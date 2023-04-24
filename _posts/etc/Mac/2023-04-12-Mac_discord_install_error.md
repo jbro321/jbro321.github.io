@@ -15,7 +15,7 @@ Macbook discord install
 
 디스코드 홈페이지에서 dmg파일 다운받은 후 더블클릭하면 아래 화면이 나온다.
 
-![Mac_discord_install.png](/assets/img/etc/Mac/Mac_discord_install_error/Mac_discord_install.png)
+![Mac_discord_install.png](/assets/img/etc/Mac/2023-04-12-Mac_discord_install_error/Mac_discord_install.png)
 
 ## 원인
 디스코드 아이콘을 더블클릭하면 무한 업데이트 오류가 납니다.

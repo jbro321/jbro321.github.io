@@ -23,7 +23,7 @@ published: true
 
 ## 1. Utterances를 설치합니다.
 
-![Utterances_page](/assets/img/etc/Blog_Dev/Utterances/Utterances_page1.png)
+![Utterances_page](/assets/img/etc/Blog_Dev/2023-03-28-Github_Dev-Utterances/Utterances_page1.png)
 
 https://github.com/apps/utterances 링크로 이동하여 utterances 깃허브 어플을 설치합니다.
 
@@ -39,7 +39,7 @@ https://github.com/apps/utterances 링크로 이동하여 utterances 깃허브 �
 ### 1.4 repo: 네모박스에 "계정/레포" 입력합니다.
 - ex) jbro321/jbro321.github.io
 
-![Utterances_page](/assets/img/etc/Blog_Dev/Utterances/Utterances_page2.png)
+![Utterances_page](/assets/img/etc/Blog_Dev/2023-03-28-Github_Dev-Utterances/Utterances_page2.png)
 
 ### 1.5 Issue에 적용되는 타입 선택합니다.
 - 댓글 이슈를 어디에 매핑시킬지 선택합니다.
@@ -51,7 +51,7 @@ https://github.com/apps/utterances 링크로 이동하여 utterances 깃허브 �
 
 ### 1.7 Utterances 코드 copy
 
-![Utterances_page](/assets/img/etc/Blog_Dev/Utterances/Utterances_page3.png)
+![Utterances_page](/assets/img/etc/Blog_Dev/2023-03-28-Github_Dev-Utterances/Utterances_page3.png)
 
 ## 2. Utterances 코드 적용하기
 
@@ -66,7 +66,7 @@ https://github.com/apps/utterances 링크로 이동하여 utterances 깃허브 �
 - _layouts/default.html 에서
 - class="post" {{ content }} 에서 글이 작성되고, div가 끝나는 곳 밑에 적용해주었습니다.
 
-![Utterances_page](/assets/img/etc/Blog_Dev/Utterances/Utterances_code_apply.png)
+![Utterances_page](/assets/img/etc/Blog_Dev/2023-03-28-Github_Dev-Utterances/Utterances_code_apply.png)
 
 ---
 
