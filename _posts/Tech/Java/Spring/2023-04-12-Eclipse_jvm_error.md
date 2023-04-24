@@ -15,7 +15,7 @@ Eclipse jvm error
 
 이클립스 실행시 오류가 발생합니다.
 
-![Eclipse_jvm_error1.jpeg](/assets/img/Tech/Java/Spring/Eclipse_jvm_error/Eclipse_jvm_error1.jpeg)
+![Eclipse_jvm_error1.jpeg](/assets/img/Tech/Java/Spring/2023-04-12-Eclipse_jvm_error/Eclipse_jvm_error1.jpeg)
 
 **JVM 버전 1.8.0_281은 해당 이클립스에 적합하지 않습니다**
 
@@ -23,7 +23,7 @@ Eclipse jvm error
 
 이클립스가 설치된 폴더 안에 **eclipse.ini**를 열어서 수정
 
-![Eclipse_jvm_error2.png](/assets/img/Tech/Java/Spring/Eclipse_jvm_error/Eclipse_jvm_error2.png)
+![Eclipse_jvm_error2.png](/assets/img/Tech/Java/Spring/2023-04-12-Eclipse_jvm_error/Eclipse_jvm_error2.png)
 
 **eclipse.ini** 파일을 보면, 버전이 다르게 설정되어 있습니다.
 
@@ -39,13 +39,15 @@ Dosgi.requiredJavaVersion=1.8
 
 그리고 다시 이클립스 실행합니다.
 
-![Eclipse_jvm_error3.png](/assets/img/Tech/Java/Spring/Eclipse_jvm_error/Eclipse_jvm_error3.png)
+![Eclipse_jvm_error3.png](/assets/img/Tech/Java/Spring/2023-04-12-Eclipse_jvm_error/Eclipse_jvm_error3.png)
 
 ...
 
 이클립스가 실행이 안됩니다..
 
 # 또 다른 오류
+
+![Eclipse_jvm_error4.png](/assets/img/Tech/Java/Spring/2023-04-12-Eclipse_jvm_error/Eclipse_jvm_error4.jpeg)
 
 이는 IDE를 실행해주는 가상머신이 없어서 발생하는 오류입니다.
 
