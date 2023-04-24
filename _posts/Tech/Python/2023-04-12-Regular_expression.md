@@ -31,7 +31,7 @@ pattern = "/(^[a-z]{4})(\d{2})-{0,1}(\d+)/gi"
 -   i : 대소문자 구분 안함
 
 
-![Regular_expression.png](/assets/img/Tech/Python/2023-04-12-%08Regular_expression/Regular_expression.png)
+![Regular_expression.png](/assets/img/Tech/Python/2023-04-12-Regular_expression/Regular_expression.png)
 
 출처 : [Microsoft Regular Expression](https://download.microsoft.com/download/D/2/4/D240EBF6-A9BA-4E4F-A63F-AEB6DA0B921C/Regular%20expressions%20quick%20reference.pdf)
 

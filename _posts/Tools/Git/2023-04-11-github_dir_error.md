@@ -13,7 +13,7 @@ github directory error
 
 # Github directory에 화살표 표시
 
-![github_dir_error](/assets/img/Tools/Git/2023-04-11-%08github_dir_error/github_dir_error1.png)
+![github_dir_error](/assets/img/Tools/Git/2023-04-11-github_dir_error/github_dir_error1.png)
 
 깃허브에서 한 디렉토리에서 다른 디렉토리로 추가하는 과정에서 위와 같이 디렉토리에 화살표 표시가 생기고, 디렉토리에 접근이 되지 않는 문제가 발생했습니다.
 
