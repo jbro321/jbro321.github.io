@@ -25,7 +25,7 @@ DB에 있는 로그인 유저 리스트를 가져오는 방법에 대한 백엔�
 
 Controller, Service(Implementation), Repository 그리고 Database에 매핑을 정의하여 구축해줍니다.
 
-![Spring_Get_user_list1](/assets/img/Tech/Java/Spring/Spring_Get_user_list/Spring_Get_user_list1.jpg)
+![Spring_Get_user_list1](/assets/img/Tech/Java/Spring/2023-04-17-Spring_Get_user_list/Spring_Get_user_list1.jpg)
 
 # 1. Controller
 
