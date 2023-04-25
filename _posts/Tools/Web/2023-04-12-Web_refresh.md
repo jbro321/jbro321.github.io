@@ -2,7 +2,7 @@
 layout: post
 title:  "F5와 Ctrl+F5 차이"
 date:   2023-04-12 16:48:33 +0900
-categories: Web
+categories: Tools Web
 published: true
 ---
 ```

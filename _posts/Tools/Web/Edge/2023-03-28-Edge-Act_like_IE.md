@@ -2,7 +2,7 @@
 layout: post
 title:  "Edge에서 IE모드로 실행하기"
 date:   2023-03-28 17:10:10 +0900
-categories: Web Edge IE
+categories: Tools Web Edge IE
 published: true
 ---
 ```
@@ -32,7 +32,7 @@ Edge에서 IE모드로 실행하는 방법입니다.
     - 설정된 환경에 따라 다를 수 있으므로,
         - "https://test/3pstart.aspx" 등 전체 주소를 적어봅시다.
 
-![AutoOpenAllowedForURLs](/assets/img/Web/Edge/2023-03-28-Edge-Act_like_IE/Act_like_IE.png)
+![AutoOpenAllowedForURLs](/assets/img/Tools/Web/Edge/2023-03-28-Edge-Act_like_IE/Act_like_IE.png)
 
 ---
 

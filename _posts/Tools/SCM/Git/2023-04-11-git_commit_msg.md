@@ -2,7 +2,7 @@
 layout: post
 title:  "git commit 메세지 규칙"
 date:   2023-04-11 10:08:33 +0900
-categories: Tools Git
+categories: Tools SCM Git
 published: true
 ---
 ```

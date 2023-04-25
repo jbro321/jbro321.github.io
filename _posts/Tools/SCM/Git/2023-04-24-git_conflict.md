@@ -2,7 +2,7 @@
 layout: post
 title:  "git conflict(충돌) 났을 때 강제로 pull 하기"
 date:   2023-04-24 11:22:33 +0900
-categories: Tools Git
+categories: Tools SCM Git
 published: true
 ---
 ```

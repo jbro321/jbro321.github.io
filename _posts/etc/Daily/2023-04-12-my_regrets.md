@@ -2,7 +2,7 @@
 layout: post
 title:  "my regrets"
 date:   2023-04-12 16:48:33 +0900
-categories: Web
+categories: etc Daily
 published: false
 ---
 ```

@@ -2,7 +2,7 @@
 layout: post
 title:  "Edge에서 팝업 없이 자동으로 파일 열기 : AutoOpenAllow"
 date:   2023-03-28 09:10:36 +0900
-categories: Web Edge
+categories: Tools Web Edge
 published: true
 ---
 ```
@@ -24,7 +24,7 @@ Edge에서 팝업 없이 자동 다운로드 하는 방법입니다.
 
 오른쪽 클릭 > NEW > String Value > 이름 '1' > 오른쪽 클릭 > Modify > Value data에 "https://test.com"
 
-![AutoOpenAllowedForURLs](/assets/img/Web/Edge/2023-03-28-Edge-AutoOpenAllow/AutoOpenAllowedForURLs.jpeg)
+![AutoOpenAllowedForURLs](/assets/img/Tools/Web/Edge/2023-03-28-Edge-AutoOpenAllow/AutoOpenAllowedForURLs.jpeg)
 
 or 커맨드 명령어로 등록
 ```powershell
@@ -49,7 +49,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\AutoOpenFileTypes
 ```
 오른쪽 클릭 > NEW > String Value > 이름 '1' > 오른쪽 클릭 > Modify > Value data에 "application"
 
-![AutoOpenAllowedForURLs](/assets/img/Web/Edge/2023-03-28-Edge-AutoOpenAllow/AutoOpenFileTypes.jpeg)
+![AutoOpenAllowedForURLs](/assets/img/Tools/Web/Edge/2023-03-28-Edge-AutoOpenAllow/AutoOpenFileTypes.jpeg)
 
 or 커맨드 명령어로 등록
 ```powershell

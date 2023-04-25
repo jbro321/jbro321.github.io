@@ -2,7 +2,7 @@
 layout: post
 title:  "git github 연동"
 date:   2023-04-11 18:40:33 +0900
-categories: Tools Git
+categories: Tools SCM Git
 published: true
 ---
 ```
@@ -22,11 +22,11 @@ $ git config --global user.email "이메일"
 
 github 홈페이지 로그인 후 > Repositories 접속 > New
 
-![github_connect1](/assets/img/Tools/Git/2023-04-11-github_connect/github_connect1.png)
+![github_connect1](/assets/img/Tools/SCM/Git/2023-04-11-%08github_connect/github_connect1.png)
 
 README.md 등 본인 선택에 따른 옵션 선택합니다.
 
-![github_connect2](/assets/img/Tools/Git/2023-04-11-github_connect/github_connect2.png)
+![github_connect2](/assets/img/Tools/SCM/Git/2023-04-11-%08github_connect/github_connect2.png)
 
 # 3. terminal 접속 및 연동
 

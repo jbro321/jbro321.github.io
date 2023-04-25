@@ -2,7 +2,7 @@
 layout: post
 title:  "git 명령어 모음"
 date:   2023-04-08 11:11:33 +0900
-categories: Tools Git
+categories: Tools SCM Git
 published: true
 ---
 ```

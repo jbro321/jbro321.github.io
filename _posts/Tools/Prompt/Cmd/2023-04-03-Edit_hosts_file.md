@@ -2,7 +2,7 @@
 layout: post
 title:  "hosts파일 수정 커맨드(echo, cmd)"
 date:   2023-04-03 10:15:36 +0900
-categories: Tools Cmd
+categories: Tools Prompt Cmd
 published: true
 ---
 ```
