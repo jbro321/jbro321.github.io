@@ -2,7 +2,7 @@
 layout: post
 title:  "hasattr, getattr, setattr"
 date:   2023-04-12 21:30:33 +0900
-categories: Tech Python
+categories: Code Python
 published: true
 ---
 ```

@@ -2,7 +2,7 @@
 layout: post
 title:  "Python Error : non-utf-8 code starting with ' xc6'"
 date:   2023-04-12 21:25:33 +0900
-categories: Tech Python
+categories: Code Python
 published: true
 ---
 ```

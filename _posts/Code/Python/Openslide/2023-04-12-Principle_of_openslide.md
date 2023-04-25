@@ -2,7 +2,7 @@
 layout: post
 title:  "openslide의 원리 (deepzoom)"
 date:   2023-04-12 21:12:33 +0900
-categories: Tech Python Openslide
+categories: Code Python Openslide
 published: true
 ---
 ```
@@ -27,7 +27,7 @@ openslide는 deepzoom의 원리로 이미지 로드를 지원합니다.
 
 - Google Maps도 deepzoom의 원리로 되어 있습니다.
 
-![python_openslide1.png](/assets/img/Tech/Python/Openslide/2023-04-12-Principle_of_openslide/python_openslide1.png)
+![python_openslide1.png](/assets/img/Code/Python/Openslide/2023-04-12-Principle_of_openslide/python_openslide1.png)
 
 이미지 출처 : [large-image-display-with-seadragon-ajax](https://objectcomputing.com/resources/publications/sett/october-2011-large-image-display-with-seadragon-ajax)
 

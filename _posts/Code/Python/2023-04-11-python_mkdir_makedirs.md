@@ -2,7 +2,7 @@
 layout: post
 title:  "Python 폴더 생성 os.mkdir() vs os.makedirs()"
 date:   2023-04-11 21:00:33 +0900
-categories: Tech Python
+categories: Code Python
 published: true
 ---
 ```
