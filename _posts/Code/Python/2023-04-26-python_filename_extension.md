@@ -7,7 +7,7 @@ published: true
 ---
 ```
 파일 확장자 변경 방법
-- Path 모듈
+- pathlib.Path 모듈
 - splitext, split
 ```
 
