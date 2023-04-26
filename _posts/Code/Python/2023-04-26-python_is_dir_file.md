@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Python 경로에 파일, 폴더 있는지 확인 #isdir() #isfile()"
+title:  "Python 경로에 파일, 폴더 있는지 확인 #os.path.isdir() #os.path.isfile()"
 date:   2023-04-26 15:00:33 +0900
 categories: Code Python
 published: true
