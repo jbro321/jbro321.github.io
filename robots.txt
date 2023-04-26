@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://jbro321.github.io//sitemap.xml
+
+Sitemap: https://jbro321.github.io/sitemap.xml
