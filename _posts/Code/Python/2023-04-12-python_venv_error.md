@@ -15,8 +15,8 @@ Python venv error
 
 - 가상환경 생성은 아래 블로그 글을 참고해주세요 **☟**
 
-> [Python 가상환경 생성, 삭제](https://jbro321.github.io/Code/python/2023/04/05/Python_venv_mk_del.html)
-> [![Python_venv_mk_del_url.png](/assets/img/Code/Python/2023-04-12-%08python_venv_error/Python_venv_mk_del_url.png)](https://jbro321.github.io/Code/python/2023/04/05/Python_venv_mk_del.html) **☝︎ 그림 클릭 :)**
+> [Python 가상환경 생성, 삭제]({{'/code/python/2023/04/05/Python_venv_mk_del.html' | relative_url }})
+> [![Python_venv_mk_del_url.png](/assets/img/Code/Python/2023-04-12-%08python_venv_error/Python_venv_mk_del_url.png)]({{'/code/python/2023/04/05/Python_venv_mk_del.html' | relative_url }}) **☝︎ 그림 클릭 :)**
 
 ## 가상환경 실행
 - 가상환경을 '.venv'로 생성한 경우입니다.
