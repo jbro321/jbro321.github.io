@@ -18,8 +18,10 @@ Edge 정책 확인하기 위해 가짜 도메인 가입
 Edge에서 자동으로 파일을 열게 하기 위해 AutoOpenAllowedForURLs, AutoOpenFileTypes 레지스트리 설정을 했습니다.
 
 ### 참고 : Edge 정책 AutoOpenAllowedForURLs, AutoOpenFileTypes 설정
-> [Edge에서 팝업 없이 자동으로 파일 열기 : AutoOpenAllow](https://jbro321.github.io/web/edge/2023/03/28/Edge-AutoOpenAllow.html)
-> [![Edge_fake_mdm1.png](/assets/img/Tools/Web/Edge/2023-04-19-Edge_fake_mdm/Edge_fake_mdm1.png)](https://jbro321.github.io/web/edge/2023/03/28/Edge-AutoOpenAllow.html) **☝︎ 그림 클릭 :)**
+> [Edge에서 팝업 없이 자동으로 파일 열기 : AutoOpenAllow]({{'/tools/web/edge/2023/03/28/Edge-AutoOpenAllow.html' | relative_url}})
+> [![Edge_fake_mdm1.png](/assets/img/Tools/Web/Edge/2023-04-19-Edge_fake_mdm/Edge_fake_mdm1.png)]({{'/tools/web/edge/2023/03/28/Edge-AutoOpenAllow.html' | relative_url}}) **☝︎ 그림 클릭 :)**
+
+{{'/code/python/2023/04/26/python_file_def.html' | relative_url}}
 
 ### 하지만, 잘되었던 자동으로 열리던게 갑자기 다른 pc에서는 안되는 겁니다...!!
 

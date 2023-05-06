@@ -23,7 +23,7 @@ published: true
 우선, python의 기본 설정인 __file__을 통해서 설정을 해보겠습니다.
 - `Python` `__file__`은 수행중인 파일의 상대경로를 출력해주는 기본 설정 전역변수입니다.
 - 추가내용은 아래 글을 참고해주세요 **☟**
-[![python_filename_extension.png](/assets/img/Code/Python/2023-04-26-%08%08python_filename_extension/%08%08python_filename_extension1.png)](https://jbro321.github.io/code/python/2023/04/26/python_file_def.html)
+[[![python_filename_extension.png](/assets/img/Code/Python/2023-04-26-%08%08python_filename_extension/%08%08python_filename_extension1.png)]({{'/code/python/2023/04/26/python_file_def.html' | relative_url}})
 
     **☝︎ 그림 클릭 :)**
 
