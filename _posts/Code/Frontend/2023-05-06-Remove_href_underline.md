@@ -27,7 +27,7 @@ HTML 하이퍼링크 밑줄 없애기
 
 ```css
 a {
-    style="text-decoration-line: none;
+    text-decoration-line: none;
 }
 ```
 
