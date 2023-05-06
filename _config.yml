@@ -2,9 +2,9 @@ title: jbro321's Devlog
 author: jbro321
 email: jaehyung0321@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  제이브로 개발블로그입니다 :) 프로그래밍, 인프라, 툴 등 개발 관련된 습득한 지식들을 기록하는 공간입니다.
+  제가 터득한 지식을 기록하여, 저의 블로그에 방문한 여러분의 궁금증이 풀렸으면 합니다!
+  저는 성장을 갈구하는 사람입니다! 많은 피드백 그리고 소통해요 ㅎㅎ 감사합니다 :D
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -38,7 +38,7 @@ plainwhite:
     #facebook: jekyll
     #soundcloud: jekyll
     #telegram: jekyll
-    #gitlab: jekyll
+    # gitlab: jekyll
     email: jaehyung0321@gmail.com
 
     # Mastodon instances
