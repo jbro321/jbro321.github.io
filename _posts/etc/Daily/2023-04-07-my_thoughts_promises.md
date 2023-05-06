@@ -2,7 +2,7 @@
 layout: post
 title:  "my thoughts, my promises"
 date:   2023-04-07 11:00:33 +0900
-categories: etc daily
+categories: etc Daily
 published: false
 ---
 ```
