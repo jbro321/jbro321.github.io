@@ -12,27 +12,29 @@
 {%- endif -%}
 <body>
   <main class="container">
-    <section class="about">
-      <a href="https://hits.seeyoufarm.com">
-        <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fjbro321.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/>
-      </a>
-      <div class="about-header {{condensed_class}}">
-      <div class="about-title">
-      <a href="/about/">
-        {% if site.plainwhite.portfolio_image_dark and site.plainwhite.dark_mode %}
-        <img class="light" src="{{site.baseurl }}/{{ site.plainwhite.portfolio_image }}" alt="{{ site.plainwhite.name }}" />
-        <img class="dark" src="{{site.baseurl }}/{{ site.plainwhite.portfolio_image_dark }}" alt="{{ site.plainwhite.name }}" />
-        {% else %}
-        <img src="{{site.baseurl }}/{{ site.plainwhite.portfolio_image }}" alt="{{ site.plainwhite.name }}" />
-        {% endif %}
-      </a>
-      <h2 id="title">
-        <a href="/about/">{{ site.plainwhite.name }}</a>
-      </h2>
+    <section class="about" style="overflow:scroll;">
+      <div>
+        <a href="https://hits.seeyoufarm.com">
+          <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fjbro321.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/>
+        </a>
       </div>
-      {%- if site.plainwhite.tagline -%}
-      <p class="tagline">{{ site.plainwhite.tagline }}</p>
-      {%- endif -%}
+      <div class="about-header {{condensed_class}}">
+        <div class="about-title">
+          <a href="/about/">
+            {% if site.plainwhite.portfolio_image_dark and site.plainwhite.dark_mode %}
+            <img class="light" src="{{site.baseurl }}/{{ site.plainwhite.portfolio_image }}" alt="{{ site.plainwhite.name }}" />
+            <img class="dark" src="{{site.baseurl }}/{{ site.plainwhite.portfolio_image_dark }}" alt="{{ site.plainwhite.name }}" />
+            {% else %}
+            <img src="{{site.baseurl }}/{{ site.plainwhite.portfolio_image }}" alt="{{ site.plainwhite.name }}" />
+            {% endif %}
+          </a>
+          <h2 id="title">
+            <a href="/about/">{{ site.plainwhite.name }}</a>
+          </h2>
+        </div>
+        {%- if site.plainwhite.tagline -%}
+        <p class="tagline">{{ site.plainwhite.tagline }}</p>
+        {%- endif -%}
       </div>
       {% capture footer %}
       {%- if site.plainwhite.social_links != '' -%}
@@ -161,6 +163,24 @@
       </div>
       {%- endif -%}
       <h2><a href='/tags/' style="text-decoration-line: none">#TAGS</a></h2>
+      <div>
+        <p>---</p>
+      </div>
+      <h3><a href='/about/' style="text-decoration-line: none"># ABOUT ME</a></h3>
+      <div class="about-footer {{condensed_class}}">
+        <p><a href='/portfolio/' style="text-decoration-line: none">포트폴리오</a>
+          <label class="switch">
+            <input type="checkbox" class="dark-mode-toggle">
+            <span class="slider round" onclick="location.href='/portfolio/'"></span>
+          </label>
+        </p>
+        <p><a href='/career/' style="text-decoration-line: none">경력기술서</a>
+          <label class="switch">
+            <input type="checkbox" class="dark-mode-toggle">
+            <span class="slider round" onclick="location.href='/career/'"></span>
+          </label>
+        </p>
+      </div>
       {% endcapture %}
       {{ footer }}
     </section>
