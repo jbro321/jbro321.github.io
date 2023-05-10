@@ -63,3 +63,6 @@ plugins:
 
 category_path: "category"
 category_layout: "category.html"
+
+tags_path: "tags"
+tags_layout: "tags.html"
