@@ -77,6 +77,9 @@ main {
   }
   .about {
     overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
     display: flex;
     height: 100vh;
     padding-top: 10vh;
@@ -126,6 +129,9 @@ main {
         margin-bottom: 17px;
       }
     }
+  }
+  .about::-webkit-scrollbar{
+    display: none;
   }
 }
 #title {
