@@ -34,7 +34,7 @@ layout: default
             {{ post.date | date: date_format }}
           </div>
           {%- if post.categories.size > 0-%}
-          <ul class="post-categories">
+          <ul class="post-categories-tags">
             {%- for tag in post.categories -%}
             <!-- <li>{{ tag }}</li> -->
             <li><a href="/category/{{tag}}" style="text-decoration-line: none;">{{ tag }}</a></li>

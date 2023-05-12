@@ -206,6 +206,22 @@ main {
     margin-right: 10px;
   }
 }
+.post-categories-tags {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  li {
+    font-size: 14px;
+    float: left;
+    background-color: #e3e3e3;
+    padding: 5px 20px;
+    border-radius: 2px;
+    @media screen and (max-width: $mobileW) {
+      margin-top: 5px;
+    }
+    margin-right: 10px;
+  }
+}
 .post-date {
   margin-right: 10px;
   color: #555;

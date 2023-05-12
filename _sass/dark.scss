@@ -1,7 +1,8 @@
 .dark,
 .dark * {
 	$dark_text_color: #f6f6f6;
-	$dark_link_color: #4da3ff;
+	// $dark_link_color: #4da3ff;
+	$dark_link_color: #f6f6f6;
 	background-color: #171717;
 	color: $dark_text_color;
 	border-color: #e6e6e6;
@@ -57,6 +58,17 @@
 
 	a {
 		color: $dark_link_color;
+	}
+
+	.post-categories-tags {
+		li {
+			background-color: #333;
+			color: #fff;
+			a {
+				color: $dark_link_color;
+				background-color: #333;
+			}
+		}
 	}
 	#title a {
 		color: #fff;
