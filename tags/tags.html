@@ -17,6 +17,8 @@ permalink: /tags/
   &nbsp;
   <a href="#PyInstaller" style="text-decoration-line: none; font-size: 14px;">#PyInstaller</a>
   &nbsp;
+  <a href="#tkinter" style="text-decoration-line: none; font-size: 14px;">#tkinter</a>
+  &nbsp;
   <b><a href="#SQL" style="text-decoration-line: none">#SQL</a></b>
   &nbsp;
   <a href="#MySQL" style="text-decoration-line: none; font-size: 14px;">#MySQL</a>
@@ -130,6 +132,17 @@ permalink: /tags/
 <b><a id="PyInstaller" href='/category/Code/Python/PyInstaller' style="text-decoration-line: none">#PyInstaller</a></b>
 <ul class="posts-list">
   {% for post in site.categories["PyInstaller"] %}
+	<li>
+    {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
+    <a class="post-link" href="{{ post.url | relative_url }}">
+      <p class="post-title" style="font-size: 12px;">{{ post.title | escape }}</p>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+<b><a id="tkinter" href='/category/Code/Python/tkinter' style="text-decoration-line: none">#tkinter</a></b>
+<ul class="posts-list">
+  {% for post in site.categories["tkinter"] %}
 	<li>
     {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
     <a class="post-link" href="{{ post.url | relative_url }}">
