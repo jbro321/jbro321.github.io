@@ -2,7 +2,7 @@
 layout: post
 title:  "Python exe 파일로 배포하는 방법 #pyinstaller #exe배포"
 date:   2023-05-12 09:10:33 +0900
-categories: Code Python pyinstaller
+categories: Code Python PyInstaller
 published: true
 ---
 ```
