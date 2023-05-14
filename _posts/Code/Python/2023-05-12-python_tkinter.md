@@ -20,6 +20,14 @@ Python GUI 프로그램 만드는 방법
 tkinter는 python에 기본으로 내장되어 있는 라이브러리이며,
 PyQt5는 C++ 기반의 GUI 프레임워크인 Qt를 Python에서 사용할 수 있게 만든 패키지입니다.
 
+# tkinter
+
+파이썬 기본 라이브러리 tkinter에 대해 알아보겠습니다.
+
+## tkinter.Label
+tkinter.Label(frame, text="텍스트")
+
+
 ---
 
 이상입니다.
