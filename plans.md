@@ -12,3 +12,8 @@ permalink: /plans/
 - ~~azure강의~~
 - 포폴
 - 기술경력서
+
+- 리눅스
+- 우분투
+- CI/CD
+- DevOps
