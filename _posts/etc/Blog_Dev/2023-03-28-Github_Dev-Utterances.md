@@ -64,7 +64,7 @@ https://github.com/apps/utterances 링크로 이동하여 utterances 깃허브 �
 저는 포스트 맨 밑에 댓글 기능을 추가하였습니다.
 
 - _layouts/default.html 에서
-- class="post" {{ content }} 에서 글이 작성되고, div가 끝나는 곳 밑에 적용해주었습니다.
+- class="post" 아래 content 에서 글이 작성되고, div가 끝나는 곳 밑에 적용해주었습니다.
 
 ![Utterances_page](/assets/img/etc/Blog_Dev/2023-03-28-Github_Dev-Utterances/Utterances_code_apply.png)
 
