@@ -17,3 +17,6 @@ permalink: /plans/
 - 우분투
 - CI/CD
 - DevOps
+
+- AWS practioner
+- CKA
